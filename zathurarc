@@ -1,0 +1,55 @@
+# zoom and scroll step size
+set zoom-step 20
+
+set scroll-step 80
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+set show-recent
+set synctex
+
+#stop at page boundries
+set scroll-page-aware "true"
+set scroll-full-overlap 0.01
+
+# copy selection to system clipboard
+set selection-clipboard clipboard
+
+# enable incremental search
+set incremental-search true
+
+# zoom
+map <C-i> zoom in
+map <C-o> zoom out
+set default-bg "#000000" #00
+set default-fg "#F7F7F6" #01
+
+set statusbar-fg "#B0B0B0" #04
+
+set inputbar-bg "#151515" #00 currently not used
+set inputbar-fg "#FFFFFF" #02
+
+set notification-error-bg "#AC4142" #08
+set notification-error-fg "#151515" #00
+
+set notification-warning-bg "#AC4142" #08
+set notification-warning-fg "#151515" #00
+
+set highlight-color "#F4BF75" #0A
+set highlight-active-color "#6A9FB5" #0D
+
+set completion-highlight-fg "#151515" #02
+set completion-highlight-bg "#90A959" #0C
+
+set completion-bg "#303030" #02
+set completion-fg "#E0E0E0" #0C
+
+set notification-bg "#90A959" #0B
+set notification-fg "#151515" #00
+
+set recolor
+set recolor-lightcolor \#222222 #00
+set recolor-darkcolor \#abb2bf #06
+set recolor-reverse-video
+set recolor-keephue
+set default-bg \#222230
